@@ -1,0 +1,19 @@
+:root {
+  --main: cyan;
+ 
+}
+*{
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.3s;
+}
+* ::selection{
+  background: var(--main);
+  color: white;
+}
+.col-md-3{
+  max-width: 100% ;
+  display: flex;
+  padding: 20px;
+  justify-content:center;
+  margin-top: 20px ;
+}

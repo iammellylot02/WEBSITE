@@ -1,0 +1,49 @@
+h1.heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700 ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+p.heading.p_color{
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+
+}
+.service_box{
+    border-radius:10px ;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    padding: 55px;
+    transition: .4s ease;
+}
+.service_box:hover{
+    transform:  translateY(5px);
+    background-image: linear-gradient(90deg, yellow, green);
+
+}
+.service_box:hover .icon{
+    color:#fff;
+
+}
+.service_box:hover p.service_text .p_color{
+    color:#fff !important;
+}
+.icon{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: flex;
+    color: green;
+}
+p.service_text.p_color{
+    margin-bottom: 0;
+    text-align: justify;
+}
+h1.service_text{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0px;
+}
